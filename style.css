@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBFAFA;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    gap: 18.75rem;
+}
+
+header {
+    height: 4.688rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 0 10rem; 
+}
+
+.hero__container {
+    width: 30.25rem;
+}
+.hero__content {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3.125rem   ;
+}
+.hero__phrase {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.phrase__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.phrase__paragraph {
+    font-family: 'Montserrat', sans-serif;
+    color: #262829;
+    font-size: 1.5rem;
+}
+
+.hero__container__buttons {
+    display: flex;
+    gap: 1.625rem;
+}
+
+.button__google, .button__apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    height: 4rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 0.625rem;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+
+.button__google img, .button__apple img {
+    height: 2rem;
+}
+
+.button__google p, .button__apple p {
+    color: #9B9FA1;
+    font-size: 0.8rem;
+}
+
+.button__google p b, .button__apple p b {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero__img-cellphone {
+    height: 50rem;
+    background-color: transparent;
+}
+
+.features {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    gap: 18.75rem;
+}
+
+.features__title {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.feature {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 10rem;
+    gap: 13.188rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature__content {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 34.188rem;
+    gap: 6.25rem;
+}
+
+.feature__img-all-products {
+    height: 55rem;
+}
+
+.feature__content__title {
+    font-size: 2.5rem;
+    font-family: 'Rubik';
+}
+
+.feature__content__paragraph {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
